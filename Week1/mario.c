@@ -1,25 +1,9 @@
 #include <stdio.h>
 #include <cs50.h>
 
-void hash(int h) 
-{
-    for (int x = 0; x < h; x++) 
-    {
-        printf("#");
-    }
-}
-void space(int s) 
-{
-    for (int x = 0; x < s; x++) 
-    {
-        printf(" ");
-    }
-}
-int height(void)
-{
-    int h = get_int("Height: ");
-    return h;
-}
+void hash();
+void space();
+
 int main(void) 
 { 
    //set variables
@@ -48,4 +32,24 @@ int main(void)
        s--;        
        printf("\n");
    }
+}
+
+void hash(int h) 
+{
+    for (int x = 0; x < h; x++) 
+    {
+        printf("#");
+    }
+}
+void space(int s) 
+{
+    for (int x = 0; x < s; x++) 
+    {
+        printf(" ");
+    }
+}
+int height(void)
+{
+    int h = get_int("Height: ");
+    return h;
 }
