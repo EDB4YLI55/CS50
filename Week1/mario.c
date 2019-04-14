@@ -3,6 +3,7 @@
 
 void hash();
 void space();
+int height();
 
 int main(void) 
 { 
