@@ -31,7 +31,10 @@ def spaces(s):
         x = x + 1
 
 def height():
-    h = int(input("Height: "))
+    try:
+        h = int(input("Height: "))
+    except:
+        h = height()
     return h
     
 
