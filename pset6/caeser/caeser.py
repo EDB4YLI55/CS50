@@ -43,7 +43,7 @@ def main():
 
 
 def usage():
-    print("usage: caesar <key>")
+    print("usage: caesar.py <key>")
 
 # this function takes in the character and the key and rotates it by the key
 
